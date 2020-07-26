@@ -1,0 +1,349 @@
+html{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h6{
+    color: ivory;
+}
+
+.titulo{
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.titulo h3{
+    letter-spacing: 2px;
+    color: white;
+}
+
+.info
+{
+    color: orange;
+    cursor: pointer;
+}
+
+.componente{
+background-color: transparent;
+border: solid coral;
+width: 1100px;
+height: 750px;
+margin-top: 10px;
+margin: auto;
+display: grid;
+grid-template-columns: 350px 350px 350px;
+grid-template-rows: 675px 675px 675px ;
+position: relative;
+
+}
+
+.columna1{
+
+background-color:transparent;
+margin-top: 50px;
+margin-left: 50px;
+/* border: solid mediumseagreen; */
+/* box-shadow: 5px 5px 10px mediumseagreen; */
+
+}
+
+.panel-v{
+ /* background-color: mediumseagreen ;   */
+ width: 296px;
+ height: 200px;
+}
+
+
+.img1{
+background-size: cover;
+border: solid mediumseagreen;
+border-radius: 25px 5px 50px 50px;
+width: 100px;
+height: 100px;
+position: absolute;
+left: 1rem;
+top: 2rem;
+
+
+}
+
+.img2{
+    background-size: cover;
+    border: solid cornflowerblue;
+    border-radius: 25px 5px 50px 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 23rem;
+    top: 2rem;
+    }
+
+.img3{
+    background-size: cover;
+    border: solid orange;
+    border-radius: 25px 5px 50px 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45rem;
+    top: 2rem;
+    }
+
+
+.basico{
+
+background-color: white;
+width: 245px;
+height: 40px;
+margin-left: 50px;
+text-align: center;
+
+
+}
+
+
+.panel-v h3{
+letter-spacing: 2px;   
+color: white;
+margin-top: 20px;
+margin-left: 70px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.precio{
+color: white;
+margin-left: 3px;
+font-weight: lighter;
+}
+
+
+.proyect{
+
+color: white;
+margin-left: 60px;
+
+}
+.icon1{
+margin-top: 25px;
+text-align: center;
+
+}
+
+/* .fa-hdd-o{
+color: mediumseagreen;
+} */
+
+.icon2{
+    margin-top: 25px;
+    text-align: center;
+}    
+
+.world{
+
+color: mediumseagreen;
+}
+
+
+.icon3{
+    margin-top: 25px;
+    text-align: center;
+}   
+
+.fa-envelope{
+color: mediumseagreen;
+
+}
+
+.fa-shield{
+color: mediumseagreen;  
+}
+
+
+.boton{
+margin-left: 80px;
+
+}
+/* 
+.uk-button-default{
+background-color: mediumseagreen;
+color: white;
+} */
+
+
+.error
+{
+    text-align: center
+}
+
+.error h1
+{
+    color: aliceblue
+            
+}
+
+.error p
+{
+    font-size:22px;
+    color: aliceblue
+            
+}
+
+.error h3
+{
+    color: azure;
+    text-transform: uppercase;
+}
+
+.error img
+{
+    width:500px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent)
+{
+    background-color: #282c34;
+}
+
+.uk-logo,.uk-navbar-nav>li>a
+{
+    color: ivory;
+}
+/* Biografia */
+
+.Cuerpo
+{
+    margin: auto;
+    background-color: transparent;
+    width: 45rem;
+    height: 55rem;
+    display: flex;
+}
+
+.mycard
+{
+    margin: auto;
+ 
+}
+
+.datos
+{
+    background-color: mediumturquoise;
+}
+
+.gustos
+{
+    background-color: mediumaquamarine;
+}
+
+.utvt
+{
+    background-color: lightskyblue;
+}
+
+.fa-user-plus
+{
+    color:cornflowerblue;
+}
+
+.uk-table th
+{
+    color: white;
+    font-weight: bold;
+}
+
+
+.uk-table-hover > tr:hover,
+.uk-table-hover tbody tr:hover {
+  background: #F4F6F7;
+}
+
+.fa-male:hover{
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.fa-female:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+
+.fa-venus-mars:hover{
+
+    color: rgb(245, 215, 80);
+}
+
+.fa-plus-circle{
+
+    color: springgreen;
+}
+
+.fa-undo{
+
+    color:#58D68D;
+}
+
+.icon-search:hover{
+
+    background: cornflowerblue;
+    color: #f8f8f8;
+
+}
+
+
+.icon-trash:hover{
+
+    background: orangered;
+    color: #f8f8f8;
+}
+
+
+.icon-x:hover{
+    
+    background: crimson;
+    color: #f8f8f8;
+}
+
+.uk-link, a:hover{
+
+    color: transparent;
+}
+
+.uk-card-pink{
+
+    background: #FDEDEC;
+}
+
+.uk-card-blue{
+
+    background: #D6EAF8;
+}
+
+.uk-card-yellow{
+
+    background: rgb(255, 241, 178);
+}
+
+.uk-label{
+
+    background: #212F3D;
+}
+
+.input-image:hover{
+
+    color: transparent;
+}
+
+.fa-chevron-circle-right, .fa-chevron-circle-left{
+
+    color:orange;
+}
+
+.fa-chevron-circle-right:hover, .fa-chevron-circle-left:hover{
+
+    color: darkorange;
+}
