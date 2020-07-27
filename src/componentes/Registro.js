@@ -40,7 +40,7 @@ class Registro extends React.Component{
         marcas:[],
         modelos:[],
 
-        foto:'img/error.png',
+        foto:"img/error.png",
         nombre:null,
         ap:null,
         am:null,
@@ -274,45 +274,48 @@ class Registro extends React.Component{
                                     <br/>
 
                                     <li className="uk-button uk-button-link">
-                                        <input  type="image" name="foto" src="img/vene.jpg" width="40" height="40" alt="senior"
+                                        <input  type="image" name="foto" src="img/vene.jpg" 
+                                        width="40" height="40" alt="vene"
                                         value="img/vene.jpg" onClick={this.handleChange}/>
                                     </li>
                                     
-                                    <button className="uk-button uk-button-link">
-                                        <input className="input-image"  type="image" name="foto" src="img/github-1.svg" width="40" height="40" alt="Semi" 
+                                    <li className="uk-button uk-button-link">
+                                        <input className="input-image"  type="image" name="foto" src="img/github-1.svg" width="40" height="40" alt="Github" 
                                         value="img/github-1.svg" onClick={this.handleChange}/>
-                                    </button>
+                                    </li>
                                     
-                                    <button className="uk-button uk-button-link">
-                                        <input  type="image" name="foto" src="img/gitlab.svg" width="40" height="40" alt="junior"
+                                    <li className="uk-button uk-button-link">
+                                        <input  type="image" name="foto" src="img/gitlab.svg" width="40" height="40" alt="Gitlab"
                                         value="img/gitlab.svg" onClick={this.handleChange}/>
-                                    </button>
+                                    </li>
 
                                     <br/>
 
-                                    <button className="uk-button uk-button-link">
-                                        <input  type="image" name="foto" src="img/python-5.svg" width="40" height="40" alt="avatar"
+                                    <li className="uk-button uk-button-link">
+                                        <input  type="image" name="foto" src="img/python-5.svg" width="40" height="40" alt="Python"
                                         value="img/python-5.svg" onClick={this.handleChange}/>
-                                    </button>
+                                    </li>
 
-                                    <button className="uk-button uk-button-link">
-                                        <input  type="image" name="foto" src="img/rex.png" width="40" height="40" alt="vene"
+                                    <li className="uk-button uk-button-link">
+                                        <input  type="image" name="foto" src="img/rex.png" width="40" height="40" alt="rex"
                                         value="img/rex.png" onClick={this.handleChange}/>
-                                    </button>
+                                    </li>
 
-                                    <button className="uk-button uk-button-link">
+                                    <li className="uk-button uk-button-link">
                                         <input  type="image" name="foto" src="img/go.png" width="40" height="40" alt="go"
                                         value="img/go.png" onClick={this.handleChange}/>
-                                    </button>
+                                    </li>
                                 {/* End avatares */}
                                 </div>
                                 {/* Profile */}
                                 <div className="uk-width-auto">
                                     <img className="uk-border-circle" width="100" height="100" 
                                     src={
-                                        foto === null 
+                                        foto === "img/error.png" 
                                         ? "img/error.png" 
-                                        : foto} alt="new user"/>
+                                        : foto
+                                        } 
+                                        alt="new user"/>
                                 </div>
                                
                                 {/* Title */}
