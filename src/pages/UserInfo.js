@@ -19,7 +19,7 @@ class UserInfo extends React.Component{
 
         return(
 
-            <section className="uk-flex uk-flex-center ">
+            <section className="uk-flex uk-flex-center">
             
                 <div className= {    users.genero === "Masculino"                     
                                     ? "uk-card uk-card-blue uk-card-body uk-width-medium uk-animation-toggle"

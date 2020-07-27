@@ -82,6 +82,7 @@ class Registro extends React.Component{
     
         const{name,value} = e.target   
         let errores = {...this.state.errores}
+        let values = {...this.state}
       
         switch(name){
             case "nombre":
@@ -123,6 +124,8 @@ class Registro extends React.Component{
             case "repeatpass":
                 errores.repeatpass = passwordsRegex.test(value) 
                 ?""
+                : values.repeatpass !== values.password
+                ? "mal"
                 :"Password must be for example: 'Brayan_Corp53'";
             break;
 

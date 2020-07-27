@@ -1,6 +1,6 @@
 import React from 'react';
 import Pagination from "react-pagination-list";
-import {Link}from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 class ReportUsers extends React.Component {
@@ -127,7 +127,7 @@ class ReportUsers extends React.Component {
                 </div>
 
                 :
-                <span cl="uk-margin-small-right" uk-spinner="ratio: 3"></span> 
+                <span className="uk-margin-small-right" uk-spinner="ratio: 3"></span> 
             }
        
         </div>
