@@ -9,7 +9,7 @@ class ReportUsers extends React.Component {
     };
   
     componentDidMount(){
-      fetch('http://localhost/api/public/api/showRelations')
+      fetch('https://brayanmanzano.site/vital/public/api/showRelations')
         .then(response =>  response.json())
         .then(resultado => this.setState({ users: resultado }))
     }
@@ -75,6 +75,9 @@ class ReportUsers extends React.Component {
                                 <th className="uk-table-shrink uk-text-center">
                                     Delete
                                 </th>
+                                <th className="uk-table-shrink uk-text-center">
+                                    Update
+                                </th>
                             </tr>
                         </thead>
 
@@ -113,6 +116,13 @@ class ReportUsers extends React.Component {
                                     <Link to={{pathname:"/DeleteUser", state: { id: user.id}}}>  
                                         <span className="uk-icon-button icon-trash">
                                             <i className="fa fa-trash fa-lg" aria-hidden="true"></i>
+                                        </span>
+                                    </Link>
+                                </td>
+                                <td className="uk-text-nowrap">
+                                    <Link to={{pathname:"/UpdateUser", state: { id: user.id}}}>  
+                                        <span className="uk-icon-button icon-pencil">
+                                            <i className="fa fa-pencil fa-lg" aria-hidden="true"></i>
                                         </span>
                                     </Link>
                                 </td>

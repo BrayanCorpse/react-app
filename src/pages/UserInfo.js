@@ -8,7 +8,7 @@ class UserInfo extends React.Component{
       }
     
       componentDidMount(){
-        fetch('http://localhost/api/public/api/showById/'+this.props.location.state.id)
+        fetch('https://brayanmanzano.site/vital/public/api/showById/'+this.props.location.state.id)
           .then(response =>  response.json())
           .then(resulById => this.setState({ users: resulById }));
       }

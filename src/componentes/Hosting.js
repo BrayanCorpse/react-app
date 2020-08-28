@@ -11,6 +11,7 @@ import Validaciones from '../pages/Validaciones'
 import ReportUsers from '../pages/ReportUsers';
 import UserInfo from '../pages/UserInfo';
 import DeleteUser from '../pages/DeleteUser';
+import UpdateUser from '../pages/UpdateUser';
 
 function Hosting(){
 
@@ -98,11 +99,11 @@ function Hosting(){
 
                         <Route exact path="/ReportUsers" component={ReportUsers} />
 
-                        <Route exact path="/UserInfo" component={UserInfo}>
-                        </Route>
+                        <Route exact path="/UserInfo" component={UserInfo} />
 
-                        <Route exact path="/DeleteUser" component={DeleteUser}>
-                        </Route>
+                        <Route exact path="/DeleteUser" component={DeleteUser}/>
+
+                        <Route exact path="/UpdateUser" component={UpdateUser}/>
 
                         <Route  path="*" component={Error} />
 

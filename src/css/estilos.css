@@ -308,6 +308,12 @@ color: white;
     color: #f8f8f8;
 }
 
+.icon-pencil:hover{
+
+    background: orange;
+    color: #f8f8f8;
+}
+
 .uk-link, a:hover{
 
     color: transparent;
@@ -347,3 +353,5 @@ color: white;
 
     color: darkorange;
 }
+
+
